@@ -1,0 +1,8 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var server_1 = require("./server");
+var server = new server_1.Server();
+server.setRoutes();
+server.startServer();
+
+//# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsbUNBQWdDO0FBRWhDLElBQUksTUFBTSxHQUFHLElBQUksZUFBTSxFQUFFLENBQUM7QUFFMUIsTUFBTSxDQUFDLFNBQVMsRUFBRSxDQUFDO0FBRW5CLE1BQU0sQ0FBQyxXQUFXLEVBQUUsQ0FBQyIsImZpbGUiOiJpbmRleC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7U2VydmVyfSBmcm9tIFwiLi9zZXJ2ZXJcIjtcclxuXHJcbnZhciBzZXJ2ZXIgPSBuZXcgU2VydmVyKCk7XHJcblxyXG5zZXJ2ZXIuc2V0Um91dGVzKCk7XHJcblxyXG5zZXJ2ZXIuc3RhcnRTZXJ2ZXIoKTsiXX0=
